@@ -27,7 +27,7 @@ There are two ways to run the program
 Execute `mvn package`, this will create a directory "target" with the compiled .jar file.
 If you want to compile frontend sources as well before you compile Java files navigate to ElevatorSimulationFrontend
 directory and
-run `ng build` (you need Angular 16.0.2 installed to do this).
+run `npm install`, `ng build` (you need Angular 16.0.2 installed to do this).
 
 ### How to use?
 ![image](https://github.com/KrzysztofProgramming/Elevator-Simulation/assets/61599048/d7c771e2-2f16-48c9-820c-81a9a03b828a)
