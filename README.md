@@ -16,7 +16,7 @@ to (2, 6, 9).
 
 There are two ways to run the program
 
-1. Open the project in your IDE, compile and click the "run" button
+1. Open the project in your IDE, compile and click the "run" button.
 2. There is a compiled .jar version of the program elevatorsimulation-compiled.jar in the repository. You can use the
    command
    `java -jar elevatorsimulation-compiled.jar` to start the program.   
