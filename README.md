@@ -7,9 +7,9 @@ The simulation and all the logic take place on the backend side.
 
 The system estimates which one of the available elevators will transport the client to the desired location the soonest
 then it adds a pickup request to the elevator's queue. The order of serving floors differs from FCFS
-(first-come, first-serve) in one way. The elevator may serve later request sooner if it's on its current path.
+(first-come, first-serve) in two ways. The elevator may serve later request sooner if it's on its current path.
 For example, it will stop picking up the user wanting to go from floor 5 to 0 if it's currently moving from floor 8 to 1
-The elevator also tries to sort selected floors. If someone selects (9, 2, 6) on floor 0, the elevator will change it
+The elevator also tries to sort selected floors. If someone selects (9, 2, 6) on floor 0, it will change it
 to (2, 6, 9).
 
 ### Running the program
