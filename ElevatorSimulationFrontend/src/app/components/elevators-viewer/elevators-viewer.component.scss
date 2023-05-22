@@ -1,0 +1,50 @@
+:host{
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  position: relative;
+  overflow: auto;
+  flex: 1;
+}
+
+.wrapper{
+  position: absolute;
+  width: 100%;
+}
+
+.title{
+  font-size: 17px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+  &--titles{
+    border-bottom: 1px solid black;
+  }
+
+  &:nth-child(2n + 1){
+    background-color: rgb(201, 201, 201);
+  }
+
+  &__cell{
+    padding: 5px;
+
+
+    &-id{
+      width: 20%;
+    }
+
+    &-passengers{
+      width: 40%;
+    }
+
+    &-floor{
+      width: 40%;
+    }
+  }
+}

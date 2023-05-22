@@ -1,0 +1,21 @@
+:host{
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  
+  &__element{
+    margin-right: 10px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.title{
+  font-size: 17px;
+}
