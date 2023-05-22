@@ -33,3 +33,4 @@ directory and
 run `ng build` (you need Angular 16.0.2 installed to do this).
 
 ### How to use?
+![image](https://github.com/KrzysztofProgramming/Elevator-Simulation/assets/61599048/d7c771e2-2f16-48c9-820c-81a9a03b828a)
